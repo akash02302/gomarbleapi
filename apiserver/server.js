@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 
 // Add CORS middleware
 app.use(cors({
-  origin: '*',  // For testing only - make more restrictive in production
+  origin: ['https://your-frontend-domain.vercel.app', 'http://localhost:3000'],
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 }));
