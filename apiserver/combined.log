@@ -1,0 +1,591 @@
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-18T13:34:59.912Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-18T13:35:37.580Z"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/reviews?page=YOUR_URL","timestamp":"2025-01-18T13:35:37.584Z"}
+{"level":"info","message":"Example: http://localhost:3000/api/reviews?page=https://www.amazon.com/product","timestamp":"2025-01-18T13:35:37.585Z"}
+{"level":"error","message":"Error scraping reviews: Protocol error (Page.navigate): Cannot navigate to invalid URL","name":"ProtocolError","stack":"ProtocolError: Protocol error (Page.navigate): Cannot navigate to invalid URL\n    at <instance_members_initializer> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:93:14)\n    at new Callback (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:97:16)\n    at CallbackRegistry.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:22:26)\n    at Connection._rawSend (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Connection.js:89:26)\n    at CdpCDPSession.send (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\CDPSession.js:66:33)\n    at navigate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:175:51)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:153:17)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:51:24)","timestamp":"2025-01-18T13:35:49.788Z"}
+{"level":"error","message":"Error in getReviews controller: Protocol error (Page.navigate): Cannot navigate to invalid URL","name":"ProtocolError","stack":"ProtocolError: Protocol error (Page.navigate): Cannot navigate to invalid URL\n    at <instance_members_initializer> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:93:14)\n    at new Callback (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:97:16)\n    at CallbackRegistry.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:22:26)\n    at Connection._rawSend (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Connection.js:89:26)\n    at CdpCDPSession.send (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\CDPSession.js:66:33)\n    at navigate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:175:51)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:153:17)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:51:24)","timestamp":"2025-01-18T13:35:50.179Z"}
+{"level":"error","message":"Global error handler: Protocol error (Page.navigate): Cannot navigate to invalid URL","name":"ProtocolError","stack":"ProtocolError: Protocol error (Page.navigate): Cannot navigate to invalid URL\n    at <instance_members_initializer> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:93:14)\n    at new Callback (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:97:16)\n    at CallbackRegistry.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:22:26)\n    at Connection._rawSend (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Connection.js:89:26)\n    at CdpCDPSession.send (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\CDPSession.js:66:33)\n    at navigate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:175:51)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:153:17)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:51:24)","timestamp":"2025-01-18T13:35:50.180Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-18T13:36:20.557Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-18T13:36:58.213Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:37:49.351Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:37:49.358Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:37:49.359Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:38:04.040Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:38:04.044Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:38:04.044Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:38:25.999Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:38:26.004Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:38:26.004Z"}
+{"level":"error","message":"Error identifying selectors: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at ReviewScraperService.identifySelectors (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:39:25)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:52:31)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:40:06.491Z"}
+{"level":"error","message":"Error scraping reviews: Failed to identify page selectors","stack":"Error: Failed to identify page selectors\n    at ReviewScraperService.identifySelectors (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:42:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:52:31)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:40:06.492Z"}
+{"level":"error","message":"Error in getReviews controller: Failed to identify page selectors","stack":"Error: Failed to identify page selectors\n    at ReviewScraperService.identifySelectors (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:42:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:52:31)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:40:06.895Z"}
+{"level":"error","message":"Global error handler: Failed to identify page selectors","stack":"Error: Failed to identify page selectors\n    at ReviewScraperService.identifySelectors (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:42:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:52:31)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:40:06.896Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:41:54.288Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:41:54.298Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:41:54.299Z"}
+{"level":"info","message":"Navigating to URL: https://2717recovery.com/products/recovery-cream","timestamp":"2025-01-18T13:42:49.890Z"}
+{"level":"info","message":"Using hardcoded selectors for 2717recovery.com","timestamp":"2025-01-18T13:42:55.842Z"}
+{"author":"span.yotpo-user-name","date":"span.yotpo-review-date","level":"info","message":"Using selectors:","nextButton":"a.yotpo-page-element.yotpo-icon-btn-next","rating":"div.yotpo-review-stars span","reviewContainer":"div.yotpo-review","reviewText":"div.content-review","reviewTitle":"span.yotpo-review-title","timestamp":"2025-01-18T13:42:55.845Z"}
+{"level":"info","message":"Scraping page 1","timestamp":"2025-01-18T13:42:55.847Z"}
+{"level":"error","message":"Error scraping page 1: Waiting for selector `div.yotpo-review` failed: Waiting failed: 10000ms exceeded","name":"TimeoutError","stack":"TimeoutError: Waiting for selector `div.yotpo-review` failed: Waiting failed: 10000ms exceeded\n    at new WaitTask (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\WaitTask.js:50:34)\n    at IsolatedWorld.waitForFunction (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Realm.js:25:26)\n    at CSSQueryHandler.waitFor (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\QueryHandler.js:172:95)\n    at async CdpFrame.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:522:21)\n    at async CdpPage.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:1305:20)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:92:21)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:43:05.877Z"}
+{"level":"info","message":"Navigating to URL: https://2717recovery.com/products/recovery-cream","timestamp":"2025-01-18T13:43:27.341Z"}
+{"level":"info","message":"Using hardcoded selectors for 2717recovery.com","timestamp":"2025-01-18T13:43:31.829Z"}
+{"author":"span.yotpo-user-name","date":"span.yotpo-review-date","level":"info","message":"Using selectors:","nextButton":"a.yotpo-page-element.yotpo-icon-btn-next","rating":"div.yotpo-review-stars span","reviewContainer":"div.yotpo-review","reviewText":"div.content-review","reviewTitle":"span.yotpo-review-title","timestamp":"2025-01-18T13:43:31.832Z"}
+{"level":"info","message":"Scraping page 1","timestamp":"2025-01-18T13:43:31.834Z"}
+{"level":"error","message":"Error scraping page 1: Waiting for selector `div.yotpo-review` failed: Waiting failed: 10000ms exceeded","name":"TimeoutError","stack":"TimeoutError: Waiting for selector `div.yotpo-review` failed: Waiting failed: 10000ms exceeded\n    at new WaitTask (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\WaitTask.js:50:34)\n    at IsolatedWorld.waitForFunction (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Realm.js:25:26)\n    at CSSQueryHandler.waitFor (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\QueryHandler.js:172:95)\n    at async CdpFrame.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:522:21)\n    at async CdpPage.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:1305:20)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:92:21)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:43:41.847Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:45:09.250Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:45:09.254Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:45:09.256Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:45:14.487Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:45:14.492Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:45:14.492Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:45:20.185Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:45:20.192Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:45:20.193Z"}
+{"level":"info","message":"Navigating to URL: https://2717recovery.com/products/recovery-cream","timestamp":"2025-01-18T13:45:59.082Z"}
+{"level":"info","message":"Using hardcoded selectors for 2717recovery.com","timestamp":"2025-01-18T13:46:03.938Z"}
+{"author":".yotpo-user-name","date":".yotpo-review-date","level":"info","message":"Using selectors:","nextButton":".yotpo-page-element.yotpo-icon-btn-next","rating":".yotpo-stars","reviewContainer":".yotpo-review","reviewText":".content-review","reviewTitle":".yotpo-review-title","reviewsWidget":"#yotpo-reviews-top-div","timestamp":"2025-01-18T13:46:03.941Z"}
+{"level":"error","message":"Error scraping reviews: Waiting for selector `#yotpo-reviews-top-div` failed: Waiting failed: 20000ms exceeded","name":"TimeoutError","stack":"TimeoutError: Waiting for selector `#yotpo-reviews-top-div` failed: Waiting failed: 20000ms exceeded\n    at new WaitTask (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\WaitTask.js:50:34)\n    at IsolatedWorld.waitForFunction (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Realm.js:25:26)\n    at CSSQueryHandler.waitFor (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\QueryHandler.js:172:95)\n    at async CdpFrame.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:522:21)\n    at async CdpPage.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:1305:20)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:88:13)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:46:23.967Z"}
+{"level":"error","message":"Error in getReviews controller: Waiting for selector `#yotpo-reviews-top-div` failed: Waiting failed: 20000ms exceeded","name":"TimeoutError","stack":"TimeoutError: Waiting for selector `#yotpo-reviews-top-div` failed: Waiting failed: 20000ms exceeded\n    at new WaitTask (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\WaitTask.js:50:34)\n    at IsolatedWorld.waitForFunction (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Realm.js:25:26)\n    at CSSQueryHandler.waitFor (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\QueryHandler.js:172:95)\n    at async CdpFrame.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:522:21)\n    at async CdpPage.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:1305:20)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:88:13)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:46:24.292Z"}
+{"level":"error","message":"Global error handler: Waiting for selector `#yotpo-reviews-top-div` failed: Waiting failed: 20000ms exceeded","name":"TimeoutError","stack":"TimeoutError: Waiting for selector `#yotpo-reviews-top-div` failed: Waiting failed: 20000ms exceeded\n    at new WaitTask (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\WaitTask.js:50:34)\n    at IsolatedWorld.waitForFunction (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Realm.js:25:26)\n    at CSSQueryHandler.waitFor (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\QueryHandler.js:172:95)\n    at async CdpFrame.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:522:21)\n    at async CdpPage.waitForSelector (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:1305:20)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:88:13)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:13:29)","timestamp":"2025-01-18T13:46:24.293Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:49:10.570Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:49:10.574Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:49:10.575Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:49:12.433Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:49:12.436Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:49:12.437Z"}
+{"level":"info","message":"Navigating to URL: https://2717recovery.com/products/recovery-cream","timestamp":"2025-01-18T13:49:24.087Z"}
+{"author":".spr-review-header-byline strong","date":".spr-review-header-metadata meta[itemprop=\"datePublished\"]","level":"info","message":"Using selectors:","nextButton":".spr-pagination-next a","rating":".spr-review-header-stars > span > span","reviewContainer":".spr-review","reviewText":".spr-review-content-body > p","reviewTitle":null,"reviewsSection":".spr-reviews-container","timestamp":"2025-01-18T13:49:32.557Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:53:48.910Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:53:48.914Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:53:48.915Z"}
+{"level":"info","message":"Navigating to URL: https://bhumi.com.au/products/organic-cotton-flannelette-sheet-set-plaid","timestamp":"2025-01-18T13:54:00.348Z"}
+{"level":"error","message":"Error identifying selectors: Missing required selectors: reviewContainer, reviewText, rating, author","stack":"Error: Missing required selectors: reviewContainer, reviewText, rating, author\n    at ReviewScraperService.identifySelectors (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:45:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:115:31)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:26:29)","timestamp":"2025-01-18T13:54:09.964Z"}
+{"author":[".reviewer",".author",".review-author"],"date":[".review-date",".date",".timestamp"],"level":"info","message":"Using selectors:","nextButton":[".next",".pagination-next",".next-page"],"rating":[".rating",".stars","[data-rating]"],"reviewContainer":[".review",".product-review","[data-review]"],"reviewText":[".review-content",".review-text",".review-body"],"reviewTitle":[".review-title",".review-heading"],"timestamp":"2025-01-18T13:54:09.965Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:56:14.547Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:56:14.552Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:56:14.553Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:56:15.891Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:56:15.896Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:56:15.897Z"}
+{"level":"info","message":"Navigating to URL: https://2717recovery.com/products/recovery-cream","timestamp":"2025-01-18T13:56:26.310Z"}
+{"level":"error","message":"Error scraping reviews: page.waitForTimeout is not a function","stack":"TypeError: page.waitForTimeout is not a function\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:30:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T13:56:30.712Z"}
+{"level":"error","message":"Error in getReviews controller: page.waitForTimeout is not a function","stack":"TypeError: page.waitForTimeout is not a function\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:30:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T13:56:31.075Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:57:21.140Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:57:21.145Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:57:21.146Z"}
+{"level":"info","message":"Navigating to URL: https://2717recovery.com/products/recovery-cream","timestamp":"2025-01-18T13:57:27.990Z"}
+{"level":"info","message":"Found 0 reviews","timestamp":"2025-01-18T13:57:37.277Z"}
+{"level":"info","message":"Navigating to URL: https://bhumi.com.au/products/organic-cotton-flannelette-sheet-set-plaid","timestamp":"2025-01-18T13:58:18.181Z"}
+{"level":"info","message":"Found 0 reviews","timestamp":"2025-01-18T13:58:28.900Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T13:59:36.987Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T13:59:36.991Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T13:59:36.992Z"}
+{"level":"info","message":"Navigating to URL: https://lyfefuel.com/products/essentials-nutrition-shake","timestamp":"2025-01-18T14:00:02.151Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:04.090Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:05.115Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:05.988Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:05.990Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:05.991Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:06.000Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:06.007Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:06.019Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:06.042Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:06.452Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:06.455Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:06.460Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:07.870Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:07.971Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:08.614Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:08.876Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:08.877Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:09.051Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:09.052Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:09.055Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:09.056Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:09.058Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:09.255Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:09.744Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:10.014Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.020Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.032Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.226Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.318Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.320Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.406Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.423Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.598Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:11.736Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:12.165Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:12.732Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:12.795Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:12.868Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:13.139Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:13.225Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:13.226Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:14.198Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:00:14.199Z"}
+{"level":"error","message":"Error scraping reviews: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:00:32.167Z"}
+{"level":"error","message":"Error in getReviews controller: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:00:37.654Z"}
+{"level":"info","message":"Navigating to URL: https://2717recovery.com/products/recovery-cream","timestamp":"2025-01-18T14:01:53.913Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:01:54.927Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:01:54.931Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:01:55.241Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:01:55.382Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:01:55.679Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:02:04.089Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:02:04.090Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:02:11.360Z"}
+{"level":"info","message":"Page content length:","timestamp":"2025-01-18T14:02:14.786Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:02:14.800Z"}
+{"level":"info","message":"Found 5 reviews","timestamp":"2025-01-18T14:02:14.801Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:02:19.404Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:02:19.406Z"}
+{"level":"info","message":"Navigating to URL: https://bhumi.com.au/products/organic-cotton-flannelette-sheet-set-plaid","timestamp":"2025-01-18T14:03:02.126Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:02.991Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:03.249Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:03.439Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:03.707Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:03.711Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:03.715Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.160Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.162Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.162Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.212Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.412Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.414Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.569Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.571Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.755Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:04.793Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:05.021Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:05.023Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:05.024Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:05.375Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:05.376Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:05.377Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:05.378Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:05.633Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:06.576Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:06.577Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:06.715Z"}
+{"cause":{"name":"ProtocolError"},"level":"error","message":"Error scraping reviews: Protocol error (Runtime.callFunctionOn): Target closed","name":"TargetCloseError","stack":"TargetCloseError: Protocol error (Runtime.callFunctionOn): Target closed\n    at CallbackRegistry.clear (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:72:36)\n    at CdpCDPSession._onClosed (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\CDPSession.js:101:25)\n    at Connection.onMessage (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Connection.js:130:25)\n    at WebSocket.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\node\\NodeWebSocketTransport.js:44:32)\n    at callListener (D:\\gormarbleassignment\\apiserver\\node_modules\\ws\\lib\\event-target.js:290:14)\n    at WebSocket.onMessage (D:\\gormarbleassignment\\apiserver\\node_modules\\ws\\lib\\event-target.js:209:9)\n    at WebSocket.emit (node:events:514:28)\n    at Receiver.receiverOnMessage (D:\\gormarbleassignment\\apiserver\\node_modules\\ws\\lib\\websocket.js:1220:20)\n    at Receiver.emit (node:events:514:28)\n    at Immediate.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\ws\\lib\\receiver.js:601:16)","timestamp":"2025-01-18T14:03:14.019Z"}
+{"cause":{"name":"ProtocolError"},"level":"error","message":"Error in getReviews controller: Protocol error (Runtime.callFunctionOn): Target closed","name":"TargetCloseError","stack":"TargetCloseError: Protocol error (Runtime.callFunctionOn): Target closed\n    at CallbackRegistry.clear (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\CallbackRegistry.js:72:36)\n    at CdpCDPSession._onClosed (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\CDPSession.js:101:25)\n    at Connection.onMessage (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Connection.js:130:25)\n    at WebSocket.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\node\\NodeWebSocketTransport.js:44:32)\n    at callListener (D:\\gormarbleassignment\\apiserver\\node_modules\\ws\\lib\\event-target.js:290:14)\n    at WebSocket.onMessage (D:\\gormarbleassignment\\apiserver\\node_modules\\ws\\lib\\event-target.js:209:9)\n    at WebSocket.emit (node:events:514:28)\n    at Receiver.receiverOnMessage (D:\\gormarbleassignment\\apiserver\\node_modules\\ws\\lib\\websocket.js:1220:20)\n    at Receiver.emit (node:events:514:28)\n    at Immediate.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\ws\\lib\\receiver.js:601:16)","timestamp":"2025-01-18T14:03:19.026Z"}
+{"level":"info","message":"Navigating to URL: https://lyfefuel.com/products/essentials-nutrition-shake","timestamp":"2025-01-18T14:03:54.124Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:54.894Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:54.895Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:54.896Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:54.897Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:54.898Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:54.899Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:54.900Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:54.940Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:56.295Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:57.796Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:57.798Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:59.023Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:59.044Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:59.300Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:03:59.633Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:00.089Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:00.282Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:00.284Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:00.654Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:00.775Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:00.913Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:00.974Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:01.015Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:01.016Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:01.018Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:01.289Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:01.361Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:02.274Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:02.326Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:02.552Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:02.555Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:02.603Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:03.788Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:03.844Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:03.854Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:03.936Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:03.938Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:03.943Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:04.347Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:04.648Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:04:04.649Z"}
+{"level":"error","message":"Error scraping reviews: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:04:24.141Z"}
+{"level":"error","message":"Error in getReviews controller: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:04:29.670Z"}
+{"level":"info","message":"Navigating to URL: https://2717recovery.com/products/recovery-cream","timestamp":"2025-01-18T14:05:13.254Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:14.653Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:14.657Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:14.885Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:15.029Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:15.651Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:25.972Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:25.973Z"}
+{"level":"info","message":"Page content length:","timestamp":"2025-01-18T14:05:33.007Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:33.011Z"}
+{"level":"info","message":"Found 5 reviews","timestamp":"2025-01-18T14:05:33.013Z"}
+{"level":"info","message":"Navigating to URL: https://lyfefuel.com/products/essentials-nutrition-shake","timestamp":"2025-01-18T14:05:58.184Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:58.974Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:58.975Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:58.977Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:58.978Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:58.979Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:58.980Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:58.980Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:05:59.057Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:00.439Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:01.971Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:02.387Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:02.390Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:02.395Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:03.268Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:03.773Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:03.840Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:03.842Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:03.918Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:03.997Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:04.145Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:04.327Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:04.421Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:04.444Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:04.627Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:05.430Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:05.487Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:05.548Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:05.549Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:05.549Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:05.861Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:05.919Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:05.922Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.266Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.283Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.306Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.458Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.459Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.656Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.738Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.834Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:06:07.836Z"}
+{"level":"error","message":"Error scraping reviews: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:06:28.188Z"}
+{"level":"error","message":"Error in getReviews controller: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:06:33.704Z"}
+{"level":"info","message":"Navigating to URL: https://lyfefuel.com/products/essentials-nutrition-shake","timestamp":"2025-01-18T14:07:54.293Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:55.222Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:55.223Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:55.224Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:55.225Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:55.226Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:55.226Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:55.227Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:55.249Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:56.340Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:57.310Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:57.313Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:57.326Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:57.950Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:59.044Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:59.255Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:59.629Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:07:59.630Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.020Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.310Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.312Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.600Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.601Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.601Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.696Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.759Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.887Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:00.994Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:01.831Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:01.840Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:01.928Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:01.997Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:01.999Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:02.226Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:02.321Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:03.150Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:03.719Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:03.741Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:03.781Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:04.284Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:04.340Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:04.342Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:04.735Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:08:04.736Z"}
+{"level":"error","message":"Error scraping reviews: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:08:24.308Z"}
+{"level":"error","message":"Error in getReviews controller: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:08:29.800Z"}
+{"level":"info","message":"Navigating to URL: https://lyfefuel.com/products/essentials-nutrition-shake","timestamp":"2025-01-18T14:09:56.605Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:57.717Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:57.718Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:57.718Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:57.719Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:57.720Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:57.721Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:57.722Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:57.747Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:09:58.875Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:00.886Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:00.889Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:00.895Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:01.614Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:02.484Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:02.598Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:02.615Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:02.759Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:02.856Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:02.996Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.337Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.338Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.339Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.340Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.340Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.448Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.458Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.459Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.528Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.529Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:03.791Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:04.322Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:04.324Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:04.384Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:05.313Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:06.086Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:06.594Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:06.670Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:06.732Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:07.040Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:07.124Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:07.125Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:07.711Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:10:07.711Z"}
+{"level":"error","message":"Error scraping reviews: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:10:26.610Z"}
+{"level":"error","message":"Error in getReviews controller: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:10:32.181Z"}
+{"level":"info","message":"Navigating to URL: https://lyfefuel.com/products/essentials-nutrition-shake","timestamp":"2025-01-18T14:12:20.609Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:21.909Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:21.910Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:21.911Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:21.911Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:21.912Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:21.912Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:21.913Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:22.127Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:23.036Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:24.980Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:25.037Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:25.045Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:25.665Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:26.049Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:26.711Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:26.817Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:26.910Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:26.912Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.034Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.160Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.233Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.234Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.235Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.262Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.263Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.371Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.403Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.497Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:27.659Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:28.293Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:28.405Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:28.530Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:28.532Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:29.605Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:31.419Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:31.513Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:31.548Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:32.130Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:32.232Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:32.233Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:32.734Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:32.736Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:12:50.161Z"}
+{"level":"error","message":"Error scraping reviews: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:12:50.618Z"}
+{"level":"error","message":"Error in getReviews controller: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:31:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:12:56.157Z"}
+{"level":"info","message":"Navigating to URL: https://bhumi.com.au/products/organic-cotton-flannelette-sheet-set-plaid","timestamp":"2025-01-18T14:13:31.030Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:31.373Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:31.926Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.079Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.327Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.329Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.330Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.525Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.527Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.528Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.685Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.686Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.735Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.738Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.748Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:32.975Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:33.123Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:34.001Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:34.260Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:34.260Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:34.261Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:34.261Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:34.330Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:34.331Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:34.416Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:35.974Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:36.156Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:36.157Z"}
+{"level":"info","message":"Page content length:","timestamp":"2025-01-18T14:13:46.641Z"}
+{"level":"info","message":"Found 0 reviews","timestamp":"2025-01-18T14:13:46.646Z"}
+{"genericElements":0,"level":"warn","message":"No reviews found. Available elements:","sprElements":0,"timestamp":"2025-01-18T14:13:46.649Z","yotpoElements":0}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:50.304Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:50.530Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:50.541Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:50.541Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:50.542Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:50.543Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:50.973Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.055Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.087Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.089Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.130Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.131Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.132Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.189Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.190Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.352Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.353Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.377Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.387Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.390Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.525Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.550Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.580Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:13:51.581Z"}
+{"level":"info","message":"Navigating to URL: https://bhumi.com.au/products/organic-cotton-flannelette-sheet-set-plaid","timestamp":"2025-01-18T14:14:01.210Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:01.521Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:01.809Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:01.990Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.437Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.455Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.457Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.723Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.724Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.725Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.749Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.750Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.855Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:02.999Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:03.000Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:03.201Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:03.562Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:03.580Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:03.582Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:03.760Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:04.374Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:04.375Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:04.375Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:04.376Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:04.516Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:04.812Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:04.813Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:05.193Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.140Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.333Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.421Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.495Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.497Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.498Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.533Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.535Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.536Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.586Z"}
+{"level":"info","message":"PAGE LOG:","timestamp":"2025-01-18T14:14:09.588Z"}
+{"level":"error","message":"Error scraping reviews: Attempted to use detached Frame '3A236D2E7FBC249F2630BA448B7A8DBA'.","stack":"Error: Attempted to use detached Frame '3A236D2E7FBC249F2630BA448B7A8DBA'.\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:96:23)\n    at CdpPage.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:826:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:40:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:14:11.899Z"}
+{"level":"error","message":"Error in getReviews controller: Attempted to use detached Frame '3A236D2E7FBC249F2630BA448B7A8DBA'.","stack":"Error: Attempted to use detached Frame '3A236D2E7FBC249F2630BA448B7A8DBA'.\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:96:23)\n    at CdpPage.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:826:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:40:24)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:14:16.907Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:17:54.942Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:17:54.946Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:17:54.946Z"}
+{"level":"error","message":"LLM selector identification failed: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at ReviewScraperService.identifySelectorsWithLLM (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:43:25)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:102:34)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:18:12.109Z"}
+{"level":"info","message":"LLM identified selectors:","timestamp":"2025-01-18T14:18:12.110Z"}
+{"level":"error","message":"Error scraping reviews: Cannot read properties of null (reading 'reviewContainer')","name":"TypeError","stack":"TypeError: Cannot read properties of null (reading 'reviewContainer')\n    at evaluate (evaluate at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:138:48), <anonymous>:1:72)\n    at #evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\ExecutionContext.js:386:56)\n    at async ExecutionContext.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\ExecutionContext.js:273:16)\n    at async IsolatedWorld.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\IsolatedWorld.js:99:16)\n    at async CdpFrame.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:338:20)\n    at async CdpPage.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:826:20)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:138:37)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:18:50.241Z"}
+{"level":"error","message":"Error in getReviews controller: Cannot read properties of null (reading 'reviewContainer')","name":"TypeError","stack":"TypeError: Cannot read properties of null (reading 'reviewContainer')\n    at evaluate (evaluate at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:138:48), <anonymous>:1:72)\n    at #evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\ExecutionContext.js:386:56)\n    at async ExecutionContext.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\ExecutionContext.js:273:16)\n    at async IsolatedWorld.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\IsolatedWorld.js:99:16)\n    at async CdpFrame.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:338:20)\n    at async CdpPage.evaluate (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:826:20)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:138:37)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:18:53.659Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:20:29.389Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:20:29.393Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:20:29.397Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:20:33.342Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:20:33.351Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:20:33.351Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:20:40.865Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:20:40.869Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:20:40.870Z"}
+{"level":"error","message":"LLM selector identification failed: Unexpected token 'I', \"I'm sorry;\"... is not valid JSON","stack":"SyntaxError: Unexpected token 'I', \"I'm sorry;\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at ReviewScraperService.identifySelectorsWithLLM (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:81:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:163:31)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:21:06.625Z"}
+{"author":".yotpo-user-name","level":"info","message":"Using selectors:","nextButton":".yotpo-pagination .next","rating":".yotpo-stars","reviewContainer":".yotpo-review","reviewText":".yotpo-review-content","reviewTitle":".yotpo-review-title","timestamp":"2025-01-18T14:21:06.627Z"}
+{"level":"info","message":"Found 0 reviews on page 1","timestamp":"2025-01-18T14:21:06.638Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:22:54.648Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:22:54.652Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:22:54.653Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:24:06.664Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:24:06.668Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:24:06.669Z"}
+{"level":"error","message":"Error scraping reviews: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:87:32)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:25:50.447Z"}
+{"level":"error","message":"Review scraping failed: Navigation timeout of 30000 ms exceeded","name":"TimeoutError","stack":"TimeoutError: Navigation timeout of 30000 ms exceeded\n    at new Deferred (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:59:34)\n    at Deferred.create (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:21:16)\n    at new LifecycleWatcher (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\LifecycleWatcher.js:69:60)\n    at CdpFrame.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:151:29)\n    at CdpFrame.<anonymous> (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\decorators.js:98:27)\n    at CdpPage.goto (D:\\gormarbleassignment\\apiserver\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:588:43)\n    at ReviewScraperService.scrapeReviews (D:\\gormarbleassignment\\apiserver\\src\\services\\reviewScraper.js:87:32)\n    at async getReviews (D:\\gormarbleassignment\\apiserver\\src\\controllers\\reviewController.js:25:29)","timestamp":"2025-01-18T14:25:54.305Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:28:13.864Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:28:13.868Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:28:13.869Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:28:18.576Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:28:18.580Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:28:18.580Z"}
+{"level":"info","message":"Trying navigation with strategy: domcontentloaded","timestamp":"2025-01-18T14:28:24.311Z"}
+{"level":"info","message":"Trying generic selectors with broader search","timestamp":"2025-01-18T14:29:11.400Z"}
+{"level":"info","message":"Total reviews found: 113","timestamp":"2025-01-18T14:29:11.553Z"}
+{"level":"info","message":"Trying navigation with strategy: domcontentloaded","timestamp":"2025-01-18T14:32:14.715Z"}
+{"level":"info","message":"Trying generic selectors with broader search","timestamp":"2025-01-18T14:32:25.603Z"}
+{"level":"info","message":"Total reviews found: 94","timestamp":"2025-01-18T14:32:25.768Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:34:05.174Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:34:05.181Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:34:05.187Z"}
+{"level":"info","message":"Trying navigation with strategy: domcontentloaded","timestamp":"2025-01-18T14:34:16.284Z"}
+{"level":"info","message":"Trying generic selectors with broader search","timestamp":"2025-01-18T14:34:26.428Z"}
+{"level":"info","message":"Total reviews found: 94","timestamp":"2025-01-18T14:34:26.537Z"}
+{"level":"info","message":"Trying navigation with strategy: domcontentloaded","timestamp":"2025-01-18T14:35:13.180Z"}
+{"level":"info","message":"Found 5 reviews using judgeme selectors","timestamp":"2025-01-18T14:35:27.801Z"}
+{"level":"info","message":"Total reviews found: 5","timestamp":"2025-01-18T14:35:27.802Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T14:37:51.671Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T14:37:51.677Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T14:37:51.677Z"}
+{"level":"info","message":"Trying navigation with strategy: domcontentloaded","timestamp":"2025-01-18T14:37:55.868Z"}
+{"level":"info","message":"Trying generic selectors with broader search","timestamp":"2025-01-18T14:38:11.436Z"}
+{"level":"info","message":"Total reviews found: 18","timestamp":"2025-01-18T14:38:11.513Z"}
+{"level":"info","message":"Trying navigation with strategy: domcontentloaded","timestamp":"2025-01-18T14:38:59.962Z"}
+{"level":"info","message":"Found 5 reviews using judgeme selectors","timestamp":"2025-01-18T14:39:13.226Z"}
+{"level":"info","message":"Total reviews found: 5","timestamp":"2025-01-18T14:39:13.229Z"}
+{"level":"info","message":"Trying navigation with strategy: domcontentloaded","timestamp":"2025-01-18T14:41:15.631Z"}
+{"level":"info","message":"Trying generic selectors with broader search","timestamp":"2025-01-18T14:41:30.806Z"}
+{"level":"info","message":"Total reviews found: 18","timestamp":"2025-01-18T14:41:30.872Z"}
+{"level":"info","message":"Server running at http://localhost:3000","timestamp":"2025-01-18T16:12:27.414Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","timestamp":"2025-01-18T16:12:27.418Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:3000/api/reviews?page=<url>","timestamp":"2025-01-18T16:12:27.419Z"}
+{"level":"info","message":"Server running at http://localhost:5000","timestamp":"2025-01-18T16:21:03.963Z"}
+{"level":"info","message":"Health check: http://localhost:5000/health","timestamp":"2025-01-18T16:21:03.968Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:5000/api/reviews?page=<url>","timestamp":"2025-01-18T16:21:03.968Z"}
+{"level":"info","message":"Trying navigation with strategy: domcontentloaded","timestamp":"2025-01-18T16:22:25.759Z"}
+{"level":"info","message":"Found 5 reviews using judgeme selectors","timestamp":"2025-01-18T16:22:41.951Z"}
+{"level":"info","message":"Total reviews found: 5","timestamp":"2025-01-18T16:22:41.953Z"}
+{"level":"info","message":"Server running at http://localhost:5000","timestamp":"2025-01-18T16:27:52.817Z"}
+{"level":"info","message":"Health check: http://localhost:5000/health","timestamp":"2025-01-18T16:27:52.822Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:5000/api/reviews?page=<url>","timestamp":"2025-01-18T16:27:52.823Z"}
+{"level":"info","message":"Server running at http://localhost:5000","timestamp":"2025-01-18T16:29:20.448Z"}
+{"level":"info","message":"Health check: http://localhost:5000/health","timestamp":"2025-01-18T16:29:20.452Z"}
+{"level":"info","message":"Reviews endpoint: http://localhost:5000/api/reviews?page=<url>","timestamp":"2025-01-18T16:29:20.456Z"}
+{"hasGeminiKey":true,"level":"info","message":"Environment Check:","port":"5000","timestamp":"2025-01-19T14:12:06.533Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-19T14:12:06.541Z"}
+{"level":"error","message":"Error analyzing page structure: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent: [429 Too Many Requests] Resource has been exhausted (e.g. check quota).","stack":"Error: [429 Too Many Requests] Resource has been exhausted (e.g. check quota).\n    at makeRequest (D:\\gomarbleassignment2\\apiserver\\node_modules\\@google\\generative-ai\\dist\\index.js:216:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateContent (D:\\gomarbleassignment2\\apiserver\\node_modules\\@google\\generative-ai\\dist\\index.js:525:22)\n    at async ReviewScraperService.analyzePageStructure (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:367:28)\n    at async ReviewScraperService.scrapeReviews (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:116:35)\n    at async getReviews (D:\\gomarbleassignment2\\apiserver\\src\\controllers\\reviewController.js:25:36)","timestamp":"2025-01-19T14:15:01.215Z"}
+{"level":"error","message":"Error scraping reviews: Failed to analyze page structure","stack":"Error: Failed to analyze page structure\n    at ReviewScraperService.analyzePageStructure (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:372:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:116:35)\n    at async getReviews (D:\\gomarbleassignment2\\apiserver\\src\\controllers\\reviewController.js:25:36)","timestamp":"2025-01-19T14:15:01.217Z"}
+{"level":"error","message":"Review scraping failed: Failed to scrape reviews","stack":"Error: Failed to scrape reviews\n    at ReviewScraperService.scrapeReviews (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:131:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getReviews (D:\\gomarbleassignment2\\apiserver\\src\\controllers\\reviewController.js:25:36)","timestamp":"2025-01-19T14:15:01.570Z"}
+{"hasGeminiKey":true,"level":"info","message":"Environment Check:","port":"5000","timestamp":"2025-01-19T14:17:53.589Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-19T14:17:53.597Z"}
+{"level":"error","message":"Error analyzing page structure: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent: [429 Too Many Requests] Resource has been exhausted (e.g. check quota).","stack":"Error: [429 Too Many Requests] Resource has been exhausted (e.g. check quota).\n    at makeRequest (D:\\gomarbleassignment2\\apiserver\\node_modules\\@google\\generative-ai\\dist\\index.js:216:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateContent (D:\\gomarbleassignment2\\apiserver\\node_modules\\@google\\generative-ai\\dist\\index.js:525:22)\n    at async ReviewScraperService.analyzePageStructure (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:367:28)\n    at async ReviewScraperService.scrapeReviews (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:116:35)\n    at async getReviews (D:\\gomarbleassignment2\\apiserver\\src\\controllers\\reviewController.js:25:36)","timestamp":"2025-01-19T14:18:10.999Z"}
+{"level":"error","message":"Error scraping reviews: Failed to analyze page structure","stack":"Error: Failed to analyze page structure\n    at ReviewScraperService.analyzePageStructure (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:372:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ReviewScraperService.scrapeReviews (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:116:35)\n    at async getReviews (D:\\gomarbleassignment2\\apiserver\\src\\controllers\\reviewController.js:25:36)","timestamp":"2025-01-19T14:18:11.002Z"}
+{"level":"error","message":"Review scraping failed: Failed to scrape reviews","stack":"Error: Failed to scrape reviews\n    at ReviewScraperService.scrapeReviews (D:\\gomarbleassignment2\\apiserver\\src\\services\\reviewScraper.js:131:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getReviews (D:\\gomarbleassignment2\\apiserver\\src\\controllers\\reviewController.js:25:36)","timestamp":"2025-01-19T14:18:11.386Z"}
