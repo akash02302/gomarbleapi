@@ -19,12 +19,5 @@
       "src": "/(.*)",
       "dest": "server.js"
     }
-  ],
-  "regions": ["dfw1"],
-  "functions": {
-    "server.js": {
-      "memory": 1024,
-      "maxDuration": 60
-    }
-  }
-} 
+  ]
+}
