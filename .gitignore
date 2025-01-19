@@ -1,4 +1,4 @@
-# Dependencies
+"# Dependencies
 node_modules/
 /.pnp
 .pnp.js
@@ -27,4 +27,4 @@ yarn-error.log*
 
 # OS files
 .DS_Store
-Thumbs.db 
+Thumbs.db" > .gitignore
