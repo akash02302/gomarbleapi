@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Reviews.css';
 
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+
 const Reviews = () => {
   const [url, setUrl] = useState('');
   const [reviews, setReviews] = useState([]);
@@ -20,7 +22,7 @@ const Reviews = () => {
 
     try {
       const encodedUrl = encodeURIComponent(url);
-      const response = await fetch(`http://localhost:5000/api/reviews?page=${encodedUrl}`);
+      const response = await fetch(`${API_URL}/api/reviews?page=${encodedUrl}`);
       const reader = response.body.getReader();
       const decoder = new TextDecoder();
 
